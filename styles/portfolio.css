@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    border: 1px solid #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    color:#2D2D2D ;
+}
+
+nav{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 30px;
+}
+
+nav .logo{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-links{
+    width: 30%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li a{
+    color: #000; 
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+
+/* STYLES FOR THE FIRST SECTION */
+.first-section{
+    padding: 80px 20px 20px 20px;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-block{
+    position: relative;
+}
+
+.first-section img{
+    margin: 20px 100px 20px 20px; 
+}
+
+.first-section .red-rectangle{
+    position: absolute;
+    top: 10px;
+    right: -50px;
+}
+
+.green{
+    position: absolute;
+    bottom: 50px;
+    left: -50px;
+    background-color: #000;
+}
+
+.first-section .content{
+    margin: 100px 0 120px 40px;
+    width: 463.94px;
+    height: 384px;
+}
+
+.branding{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.style{
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 102px;
+}
+
+.style2{ 
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+/* STYLES FOR ASIDE */
+.logos{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 100px 0 20px 40px;
+}
+
+.logos img{
+    height: 35px;
+}
+
+.logos img:nth-child(6), .logos img:nth-child(5){
+    height: 16px;
+}
+
+
+/* STYLES FOR MAIN */
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    margin: 120px 40px 45px 130px;
+}
+
+.mini-content{
+    width: 33.3%;
+}
+
+
+/* STYLES FOR ARTICLE */
+article h2{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.mini-container{
+    padding: 10px;
+    width: 90%;
+    margin: 40px 0 20px 40px;
+}
+
+.first-row, .second-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* STYLES FOR SECOND SECTION */
+.section2 h2{
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.carrier-container{
+    display: flex;
+    justify-content: space-between;
+     width: 93%;
+    margin: 50px 0 50px 40px; 
+    padding: 20px;
+    margin: 40px 0px 20px 40px;
+}
+
+
+/* STYLES FOR FOOTER */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 93%;
+    margin: 40px 0px 20px 40px;
+}
